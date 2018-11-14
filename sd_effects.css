@@ -14,6 +14,7 @@
 */
 
 /* HTML Styles */
+/* Changed the background of the Webpage */
 html {
     background-image: url(sd_back1.png);
     background-attachment: fixed;
@@ -22,15 +23,15 @@ html {
 }
 
 /* Body Styles */
+/* Gave the body a fancy background, with radial gradients to make it look like nebulas. */
 body {
     background: url(sd_back2.png),
         radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%), radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0, 0, 0, 0) 45%), radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0) 40%), rgb(151, 151, 151);
     box-shadow: rgb(31, 31, 31) 30px 0px 45px, rgb(31, 31, 31) -30px 0px 45px;
 }
 
-
-
 /* Navigation List Styles */
+/* Gave the navigation list special border. */
 body>header a {
     border: 5px;
     border-style: outset;
@@ -38,6 +39,7 @@ body>header a {
 }
 
 /* Section Left Styles */
+/* Gave the Heading 1 text a shadow, and fliped the portrait so that it was facing the opposite way, also gave it a filter. */
 h1 {
     color: rgb(211, 211, 211);
     text-shadow: black 0px 0px 25px;
@@ -54,6 +56,7 @@ h1 {
 }
 
 /* Footer Styles */
+/* Gave the footer a Border. */
 footer {
     border: 2px;
     border-top-style: solid;
